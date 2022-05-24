@@ -6,6 +6,8 @@ const cambioEl = document.getElementById('cambio');
 const tazaEl = document.getElementById('taza');
 
 
+// Fetch 
+// Funcion que se va a encargar de hacer todos los cambios, de actualizar elementos en el DOM y de sumar todas las tazas.
 
 function calculate(){
     const moneda_one = monedaEl_one.value;
@@ -24,6 +26,7 @@ function calculate(){
     
 }
 
+// Eventos
 
 monedaEl_one.addEventListener('change', calculate);
 cantidadEl_one.addEventListener('input', calculate);
